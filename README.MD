@@ -1,7 +1,6 @@
 <h1 align="center">Desafio RPA</h1>
-<p align="center">
-  <img alt="Imagem ilustrativa e-commerce" src="https://cdn2.increase.com.br/increasecombr/2018/01/22135702/ecommerce.jpg" width="1200" height="450"/>
-</p>
+
+<h4>Este projeto trata-se de uma automação feita em RPA para preencher inputs de uma aplicação WEB com dados de uma planilha de Excel.</h4>
 
 </details>
 
@@ -12,7 +11,7 @@
 
 ## Funcionalidade da aplicação
 
-- A Aplicação abre o google Chrome, coleta dados de cadastro de um arquivo excel, preenche os inputs da URL "https://rpachallenge.com/" de cada usuário e a final envia os dados, fechando também o google Chrome.
+- A Aplicação abre o google Chrome, coleta dados de usuários para cadastro em um arquivo excel para preencher os inputs da URL "https://rpachallenge.com/". Ao final de preencher os dados de cada usuário e envia os dados do formulário, e ao terminar todos os usuários, fecha também o Google Chrome.
 
 ## Instalação
 
