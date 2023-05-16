@@ -11,7 +11,7 @@
 
 ## Funcionalidade da aplicação
 
-- A Aplicação abre o google Chrome, coleta dados de usuários para cadastro em um arquivo excel para preencher os inputs da URL "https://rpachallenge.com/". Ao final de preencher os dados de cada usuário e envia os dados do formulário, e ao terminar todos os usuários, fecha também o Google Chrome.
+- A Aplicação abre o google Chrome, coleta em um arquivo de excel os dados dos usuários para cadastro, preenche os inputs da URL "https://rpachallenge.com/" em seu campo específico (os campos mudam de posição e ID) e clica no botão enviar do formulário. Ao finalizar todos os usuários cadastrados, fecha o Google Chrome.
 
 ## Instalação
 
