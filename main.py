@@ -4,6 +4,7 @@
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from webdriver_manager.chrome import ChromeDriverManager
 import pandas as pd
 
 file_name = "challenge.xlsx"
@@ -11,7 +12,7 @@ form_url = "https://rpachallenge.com/"
 
 data = pd.read_excel(file_name)
 
-chrome = webdriver.Chrome()
+chrome = webdriver.Chrome(ChromeDriverManager().install())
 chrome.get(form_url)
 
 

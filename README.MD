@@ -19,13 +19,11 @@
     $ git clone git@github.com:jeanmbiz/Desafio-RPA.git
 
     - Instalar dependencias
-    - Criar Ambiente Virtual: python -m venv _venv
-    - Ativar Ambiente Virtual: source _venv/Scripts/activate
+    - Criar Ambiente Virtual: python -m venv .venv
+    - Ativar Ambiente Virtual: source .venv/bin/activate
     - Instalar dependências: pip install -r requirements.txt
 
     - Rodar Aplicação
     $ Clicar no botão "Run Python File" (canto superior direito)
-
-
 
   </details>
